@@ -1,0 +1,289 @@
+
+@media only screen and (max-width: 1560px) {  
+    .top-az-pict, .logo-black{display: none;}
+   
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+	.name{
+		width: 100%;
+		padding: 0 2%;
+	}
+	.row {
+		padding: 0 2px;
+	}
+
+  
+
+}
+
+@media only screen and (max-width: 1080px){
+	 .icon-small {
+
+        margin-right: 1px;
+	}
+		.slider-img{
+	width: 80%;
+}
+
+.section-plans .col{
+    width: 100%;
+   }
+}
+
+@media only screen and (max-width: 1023px) {
+body {font-size: 1rem;}
+section{ padding: 60px 0px; }
+
+.long-copy{
+		width: 80%;
+		margin-left: 10%;
+}
+
+.steps-box { margin-top: 10px; }
+    .steps-box:last-child { margin-top: 10px; }
+    .works-steps { margin-bottom: 40px; }
+    .works-step:last-of-type { margin-bottom: 60px; }
+
+    .app-screen { width: 50%; }
+
+    .icon-small {
+        width: 17px;
+        margin-right: 5px;
+    }
+
+    
+    
+
+	.section-knowledge { font-size: 90%; }
+	.contact-form { width: 80%; }
+
+    .ostatni-showcase li {
+       
+        width: 50%;
+      }
+      #plan-box-2{
+        margin-top: 0px;
+      }
+      
+      #plan-box-3{
+        margin-top: 0px;
+        margin-left: 25px;
+      }
+      
+      #plan-box-2-en{
+        margin-top: 0px;
+       
+      }
+      
+      #plan-box-2-de{
+        margin-top: 0px;
+        
+      } 
+      
+      .section-plans .col:nth-child(3)
+      {
+     
+        margin-left: 0px;
+      }
+
+      .row .thumbnail1-5{
+        width: 18%;
+       
+      }
+      .row .thumbnail1-6{
+        width: 15%;
+      
+      }
+}
+
+@media only screen and (max-width: 930px){
+    .row .thumbnail1-3{
+        width: 31%;
+        
+      }
+}
+
+@media only screen and (max-width: 854px) {
+
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+
+    .row,
+    .name { padding: 0 4%; }
+    .col {
+		width: 50%;
+		height: 50%;
+        margin: 0 0 4% 0;
+    }
+
+   
+
+    .sticky .main-nav {
+        display: none;
+    }
+
+        
+    .main-nav li{
+        display: none;
+    }
+    .sticky .menuActive  li{
+        display: block;
+    }
+    .section-plans .col{
+        width: 100%;
+       }
+    .section-about .col{
+    width: 100%;
+    }
+
+
+    .section-knowledge { font-size: 150%; 
+    text-align: center;}
+
+ 
+
+  .section-education .col{
+        width: 33%;
+  }
+
+    .lang_switch{
+        margin-left: 10px;
+    
+    }
+
+    .lang_switch img{
+        margin-top: 5px;
+        
+    }
+
+    .main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    /*
+    .main-nav {
+       float: left;
+       width: 90%;
+       margin-left: 15vh;
+        margin-top: 30px;
+        
+       
+    }*/
+
+   .sticky{
+     display: flex;
+     justify-content: center;
+     
+   }
+
+
+    .mobile-nav-icon{
+        position: absolute;
+        top: -5px;
+        right: 10px;
+        
+    }
+    
+    .main-nav li {
+       
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;       
+        
+    }
+  
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+       display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+        
+	}
+  /*
+	 .sticky .main-nav { margin-top: 10px; }
+
+   .sticky .main-nav { margin-left: 35%; }
+
+   .sticky .main-nav  li:first-child { margin-top: 50px; }*/
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+
+
+    
+
+    .video-cover{
+        flex: 1 0 80%;
+    }
+
+    
+}
+@media only screen and (max-width: 853px){
+  .row .boxMyWork{
+    min-height: 300px;
+  }
+
+  .git{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 805px){
+    .row .thumbnail1-3{
+        width: 32%;
+      }
+     
+
+      .row .thumbnail1-6{
+        width: 31%;
+      }
+      
+}
+@media only screen and (max-width: 650px){
+  .section-education .col{
+    width: 100%;
+    
+}
+
+}
+
+@media only screen and (max-width: 555px) {
+
+  .name h1{
+    font-size: 7vw;
+  }
+
+    .section-knowledge { font-size: 0.8rem; 
+        
+    }
+    .row .thumbnail1-2{
+        width: 48%;
+        
+      }
+      .row .thumbnail1-3{
+        width: 31%;
+       
+      }
+
+      .section-myWork .col h2{
+          font-size: 4.5vw;
+      }
+      .section-myWork .col p{
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+
+  .main-nav li:first-child {
+    margin-top: 50px;
+  }
+  
+}
